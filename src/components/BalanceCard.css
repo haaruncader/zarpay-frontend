@@ -1,0 +1,28 @@
+/* Balance Card Styles */
+.balance-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 16px;
+  padding: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+  text-align: center;
+}
+
+.balance-amount {
+  font-size: 48px;
+  font-weight: 800;
+  color: white;
+  margin: 0;
+  letter-spacing: -1px;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .balance-amount {
+    font-size: 36px;
+  }
+  
+  .balance-card {
+    padding: 25px;
+  }
+}

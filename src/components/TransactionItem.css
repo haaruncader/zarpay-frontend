@@ -1,0 +1,87 @@
+/* Transaction Item Styles */
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.transaction-item:last-child {
+  border-bottom: none;
+}
+
+.transaction-left {
+  display: flex;
+  gap: 12px;
+  flex: 1;
+}
+
+.transaction-icon {
+  font-size: 32px;
+  line-height: 1;
+}
+
+.transaction-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.transaction-type-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.transaction-type {
+  font-weight: 600;
+  color: #2d3748;
+  font-size: 15px;
+}
+
+.transaction-desc {
+  font-size: 14px;
+  color: #718096;
+}
+
+.transaction-datetime {
+  font-size: 12px;
+  color: #a0aec0;
+}
+
+.transaction-balance {
+  font-size: 12px;
+  color: #667eea;
+  font-weight: 500;
+}
+
+.transaction-amount {
+  font-size: 18px;
+  font-weight: 700;
+  white-space: nowrap;
+  margin-left: 12px;
+}
+
+.transaction-amount.credit {
+  color: #48bb78;
+}
+
+.transaction-amount.debit {
+  color: #f56565;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .transaction-icon {
+    font-size: 24px;
+  }
+  
+  .transaction-amount {
+    font-size: 16px;
+  }
+  
+  .transaction-type {
+    font-size: 14px;
+  }
+}

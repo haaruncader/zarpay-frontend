@@ -1,0 +1,58 @@
+/* Transaction List Styles */
+.transactions-section {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #1a202c;
+}
+
+.no-transactions {
+  text-align: center;
+  color: #a0aec0;
+  padding: 40px;
+  font-size: 16px;
+}
+
+.transaction-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* See All Button */
+.see-all-btn {
+  width: 100%;
+  margin-top: 16px;
+  padding: 12px;
+  background: #edf2f7;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #4a5568;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.see-all-btn:hover {
+  background: #e2e8f0;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .transactions-section {
+    padding: 18px;
+  }
+  
+  .section-title {
+    font-size: 18px;
+  }
+}
